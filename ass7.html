@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 7</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        form{
+            width: 80%;
+            padding-left: 150px;
+        }
+        input[type=text]{
+            width: 25%;
+        }
+        textarea{
+            width: 200px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chapter # 7 - Forms</h1>
+    <form>
+        <fieldset>
+            <legend>Your Details:</legend>
+            <p>
+                <label>Name:</label>
+                <input type="text" name="name1"></p>
+            <p>
+                <label>Email:</label>
+                <input type="text" name="name2"></p>
+        </fieldset>
+        <fieldset>
+            <legend>Your Reviews:</legend>
+            <p>
+                <label>How did you hear about us?</label>
+                <select>
+                    <option>Google</option>
+                    <option>Friend</option>
+                    <option>News</option>
+                </select>
+            <p>Would you visit again?<br />
+            Yes<input type="radio" name="ans" value="Yes">
+                No<input type="radio" name="ans" value="No">
+                May be<input type="radio" name="ans" value="May be">
+            </p>
+            <p>
+                Comments:<br />
+                <textarea>
+
+                </textarea>
+            </p>
+            <p><input type="checkbox">Sign me up for email updates
+            <br />
+            <input type="submit" value="Submit review">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
